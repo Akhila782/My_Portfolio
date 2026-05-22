@@ -6,10 +6,10 @@ from flask import Flask, render_template, request, redirect, flash, url_for
 import pymysql
 from pymysql import Error
 
-DB_HOST = "localhost"
-DB_USER = "root"
-DB_PASSWORD = "Sai#0709" # Update this if needed (e.g., "admin123")
-DB_NAME = "portfolio"
+DB_HOST = os.environ.get("DB_HOST", "localhost")
+DB_USER = os.environ.get("DB_USER", "root")
+DB_PASSWORD = os.environ.get("DB_PASSWORD", "Sai#0709") # Update this if needed (e.g., "admin123")
+DB_NAME = os.environ.get("DB_NAME", "portfolio")
 
 # Initialize Flask App
 app = Flask(__name__, template_folder='.', static_folder='.', static_url_path='')
@@ -88,7 +88,7 @@ def index():
 
 @app.route('/Saisrinivas_Home.html')
 def saisrinivas_home():
-    return render_template('Saisrinivas_Home.html')
+    return render_template('Home1.html')
 
 @app.route('/About.html')
 def about():
