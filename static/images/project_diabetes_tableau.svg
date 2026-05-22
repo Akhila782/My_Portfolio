@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 360" preserveAspectRatio="xMidYMid meet">
+  <defs>
+    <linearGradient id="grad3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0D5C63"/>
+      <stop offset="100%" stop-color="#E07A5F"/>
+    </linearGradient>
+  </defs>
+  <rect width="560" height="360" rx="24" ry="24" fill="#f7f4ee"/>
+  <!-- Tableau-like dashboard mock -->
+  <rect x="50" y="90" width="460" height="220" rx="16" fill="#fff" stroke="#d8d4ce" stroke-width="2"/>
+  
+  <!-- Modern top bar of the application window -->
+  <rect x="50" y="90" width="460" height="40" rx="16" fill="#0D5C63" opacity="0.1"/>
+  <!-- Decorative window control dots -->
+  <circle cx="80" cy="110" r="6" fill="#E07A5F"/>
+  <circle cx="100" cy="110" r="6" fill="#E9C46A"/>
+  <circle cx="120" cy="110" r="6" fill="#2D9A74"/>
+
+  <!-- Top KPI Cards -->
+  <!-- Card 1 -->
+  <rect x="70" y="140" width="130" height="70" rx="8" fill="#FAFAF8" stroke="#e0e0e0" stroke-width="1.5"/>
+  <rect x="70" y="140" width="130" height="4" rx="2" fill="#0D5C63"/>
+  <text x="85" y="172" font-family="Inter, sans-serif" font-size="20" fill="#0D5C63" font-weight="700">742</text>
+  <text x="85" y="192" font-family="Inter, sans-serif" font-size="11" fill="#7A7A7A" font-weight="500">Total Patients</text>
+
+  <!-- Card 2 -->
+  <rect x="215" y="140" width="130" height="70" rx="8" fill="#FAFAF8" stroke="#e0e0e0" stroke-width="1.5"/>
+  <rect x="215" y="140" width="130" height="4" rx="2" fill="#E07A5F"/>
+  <text x="230" y="172" font-family="Inter, sans-serif" font-size="20" fill="#E07A5F" font-weight="700">14.2%</text>
+  <text x="230" y="192" font-family="Inter, sans-serif" font-size="11" fill="#7A7A7A" font-weight="500">Avg HbA1c</text>
+
+  <!-- Card 3 -->
+  <rect x="360" y="140" width="130" height="70" rx="8" fill="#FAFAF8" stroke="#e0e0e0" stroke-width="1.5"/>
+  <rect x="360" y="140" width="130" height="4" rx="2" fill="#2D9A74"/>
+  <text x="375" y="172" font-family="Inter, sans-serif" font-size="20" fill="#2D9A74" font-weight="700">30%</text>
+  <text x="375" y="192" font-family="Inter, sans-serif" font-size="11" fill="#7A7A7A" font-weight="500">High Risk Rate</text>
+
+  <!-- Bottom Detailed Visual Cards -->
+  <!-- Left Bottom Card (Line Chart) -->
+  <rect x="70" y="222" width="205" height="73" rx="8" fill="#FAFAF8" stroke="#e0e0e0" stroke-width="1.5"/>
+  <rect x="70" y="222" width="205" height="4" rx="2" fill="#0D5C63"/>
+  <text x="80" y="238" font-family="Inter, sans-serif" font-size="9" fill="#5A5A5A" font-weight="600">Patient Trend (Monthly)</text>
+  
+  <line x1="85" y1="285" x2="255" y2="285" stroke="#e8e8e8" stroke-width="1"/>
+  <line x1="85" y1="245" x2="85" y2="285" stroke="#e8e8e8" stroke-width="1"/>
+  
+  <!-- Line path -->
+  <path d="M85 280 L120 250 L160 265 L200 248 L250 258" fill="none" stroke="url(#grad3)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Line dots -->
+  <circle cx="85" cy="280" r="3" fill="#0D5C63"/>
+  <circle cx="120" cy="250" r="3" fill="#0D5C63"/>
+  <circle cx="160" cy="265" r="3" fill="#0D5C63"/>
+  <circle cx="200" cy="248" r="3" fill="#0D5C63"/>
+  <circle cx="250" cy="258" r="3" fill="#E07A5F"/>
+
+  <!-- Right Bottom Card (Donut Chart) -->
+  <rect x="290" y="222" width="200" height="73" rx="8" fill="#FAFAF8" stroke="#e0e0e0" stroke-width="1.5"/>
+  <rect x="290" y="222" width="200" height="4" rx="2" fill="#E07A5F"/>
+  <text x="302" y="238" font-family="Inter, sans-serif" font-size="9" fill="#5A5A5A" font-weight="600">Risk Demographics</text>
+
+  <!-- Donut Chart -->
+  <circle cx="430" cy="262" r="20" fill="none" stroke="#0D5C63" stroke-width="8"/>
+  <circle cx="430" cy="262" r="20" fill="none" stroke="#E07A5F" stroke-width="8" stroke-dasharray="50 100"/>
+  <text x="430" y="265" font-family="Inter, sans-serif" font-size="9" fill="#5A5A5A" font-weight="600" text-anchor="middle">Age</text>
+
+  <!-- Mini Legend -->
+  <rect x="305" y="250" width="8" height="8" rx="2" fill="#0D5C63"/>
+  <text x="318" y="257" font-family="Inter, sans-serif" font-size="9" fill="#7A7A7A" font-weight="500">&lt;50</text>
+  <rect x="305" y="265" width="8" height="8" rx="2" fill="#E07A5F"/>
+  <text x="318" y="272" font-family="Inter, sans-serif" font-size="9" fill="#7A7A7A" font-weight="500">&gt;50</text>
+
+  <!-- Header Text -->
+  <text x="52" y="60" font-family="Inter, sans-serif" font-size="26" fill="#0D5C63" font-weight="700">Diabetes Tableau Dashboard</text>
+  <text x="52" y="92" font-family="Inter, sans-serif" font-size="18" fill="#5A5A5A">Interactive Provider Insights</text>
+</svg>

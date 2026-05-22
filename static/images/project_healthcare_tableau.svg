@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 360" preserveAspectRatio="xMidYMid meet">
+  <defs>
+    <linearGradient id="grad4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#167a83"/>
+      <stop offset="100%" stop-color="#083c41"/>
+    </linearGradient>
+    <linearGradient id="barGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#E07A5F"/>
+      <stop offset="100%" stop-color="#f6a48f"/>
+    </linearGradient>
+  </defs>
+  <rect width="560" height="360" rx="24" ry="24" fill="#f7f4ee"/>
+  
+  <!-- Healthcare KPI Tableau dashboard window mockup -->
+  <rect x="50" y="90" width="460" height="220" rx="16" fill="#fff" stroke="#d8d4ce" stroke-width="2"/>
+  
+  <!-- Modern top bar of the application window -->
+  <rect x="50" y="90" width="460" height="35" rx="16" fill="#0D5C63"/>
+  <rect x="50" y="105" width="460" height="20" fill="#0D5C63"/>
+  
+  <!-- macOS window control dots -->
+  <circle cx="75" cy="107" r="5" fill="#FF5F56"/>
+  <circle cx="91" cy="107" r="5" fill="#FFBD2E"/>
+  <circle cx="107" cy="107" r="5" fill="#27C93F"/>
+  
+  <text x="135" y="111" font-family="Inter, sans-serif" font-size="10" fill="#fff" font-weight="700">Tableau Server - Healthcare KPIs</text>
+  
+  <!-- Left Panel: Admissions by Year (Bar Chart) -->
+  <rect x="70" y="140" width="130" height="150" rx="10" fill="#fff" stroke="#e2e8f0" stroke-width="1.5"/>
+  <rect x="70" y="140" width="130" height="4" rx="2" fill="#0D5C63"/>
+  <text x="80" y="158" font-family="Inter, sans-serif" font-size="9" fill="#4A5568" font-weight="700">Admissions by Year</text>
+  
+  <!-- Bar chart bars -->
+  <rect x="85" y="210" width="12" height="40" rx="2" fill="#A0AEC0"/>
+  <rect x="105" y="195" width="12" height="55" rx="2" fill="#A0AEC0"/>
+  <rect x="125" y="180" width="12" height="70" rx="2" fill="#0D5C63"/>
+  <rect x="145" y="170" width="12" height="80" rx="2" fill="#0D5C63"/>
+  <rect x="165" y="155" width="12" height="95" rx="2" fill="url(#barGrad)"/>
+  
+  <!-- Baseline and labels -->
+  <line x1="80" y1="250" x2="190" y2="250" stroke="#cbd5e0" stroke-width="1.5"/>
+  <text x="91" y="262" font-family="Inter, sans-serif" font-size="7.5" fill="#718096" font-weight="600" text-anchor="middle">21</text>
+  <text x="131" y="262" font-family="Inter, sans-serif" font-size="7.5" fill="#718096" font-weight="600" text-anchor="middle">23</text>
+  <text x="171" y="262" font-family="Inter, sans-serif" font-size="7.5" fill="#718096" font-weight="600" text-anchor="middle">25</text>
+  
+  <text x="80" y="280" font-family="Inter, sans-serif" font-size="8.5" fill="#0D5C63" font-weight="700">+24% Total Growth</text>
+
+  <!-- Middle Panel: ER Wait Time KPI -->
+  <rect x="215" y="140" width="130" height="150" rx="10" fill="#fff" stroke="#e2e8f0" stroke-width="1.5"/>
+  <rect x="215" y="140" width="130" height="4" rx="2" fill="#E07A5F"/>
+  <text x="225" y="158" font-family="Inter, sans-serif" font-size="9" fill="#4A5568" font-weight="700">ER Wait Time (Avg)</text>
+  
+  <text x="225" y="195" font-family="Inter, sans-serif" font-size="24" fill="#E07A5F" font-weight="800">18m</text>
+  <text x="225" y="210" font-family="Inter, sans-serif" font-size="8.5" fill="#718096" font-weight="600">vs 24m Benchmark</text>
+  
+  <!-- Meter Arc -->
+  <circle cx="280" cy="250" r="22" fill="none" stroke="#EDF2F7" stroke-width="6"/>
+  <circle cx="280" cy="250" r="22" fill="none" stroke="#2D9A74" stroke-width="6" stroke-dasharray="100 138" transform="rotate(-90 280 250)" stroke-linecap="round"/>
+  <text x="280" y="253" font-family="Inter, sans-serif" font-size="8.5" fill="#2D9A74" font-weight="700" text-anchor="middle">72%</text>
+  
+  <text x="225" y="280" font-family="Inter, sans-serif" font-size="8.5" fill="#2D9A74" font-weight="700">On-Time Care</text>
+
+  <!-- Right Panel: Patient Share Demographics -->
+  <rect x="360" y="140" width="130" height="150" rx="10" fill="#fff" stroke="#e2e8f0" stroke-width="1.5"/>
+  <rect x="360" y="140" width="130" height="4" rx="2" fill="#2D9A74"/>
+  <text x="370" y="158" font-family="Inter, sans-serif" font-size="9" fill="#4A5568" font-weight="700">Patient Share</text>
+  
+  <!-- Donut segments -->
+  <circle cx="425" cy="200" r="24" fill="none" stroke="#2D9A74" stroke-width="10"/>
+  <circle cx="425" cy="200" r="24" fill="none" stroke="#0D5C63" stroke-width="10" stroke-dasharray="55 151" transform="rotate(-40 425 200)"/>
+  <circle cx="425" cy="200" r="24" fill="none" stroke="#E07A5F" stroke-width="10" stroke-dasharray="32 151" transform="rotate(90 425 200)"/>
+  
+  <!-- Legends -->
+  <rect x="372" y="242" width="6" height="6" rx="1.5" fill="#2D9A74"/>
+  <text x="382" y="247" font-family="Inter, sans-serif" font-size="7.5" fill="#4A5568" font-weight="600">Adult (55%)</text>
+  
+  <rect x="372" y="253" width="6" height="6" rx="1.5" fill="#0D5C63"/>
+  <text x="382" y="258" font-family="Inter, sans-serif" font-size="7.5" fill="#4A5568" font-weight="600">Geriatric (25%)</text>
+  
+  <rect x="372" y="264" width="6" height="6" rx="1.5" fill="#E07A5F"/>
+  <text x="382" y="269" font-family="Inter, sans-serif" font-size="7.5" fill="#4A5568" font-weight="600">Pediatric (20%)</text>
+
+  <!-- Title & Subtitle -->
+  <text x="52" y="60" font-family="Inter, sans-serif" font-size="26" fill="#0D5C63" font-weight="700">Healthcare Visualization</text>
+  <text x="52" y="92" font-family="Inter, sans-serif" font-size="18" fill="#5A5A5A">KPI Monitoring &amp; Reporting</text>
+</svg>
