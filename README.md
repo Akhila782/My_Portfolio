@@ -14,7 +14,7 @@ The website uses responsive layouts (CSS Grid and Flexbox) to render beautifully
 Since this is a fully static website, deploying to Vercel takes only a few seconds:
 
 1. **Push to GitHub**:
-   Ensure `Akhila.html`, `vercel.json`, and the `static/` folder are committed to your GitHub repository.
+   Ensure `Home.html`, `vercel.json`, and the `static/` folder are committed to your GitHub repository.
 2. **Import to Vercel**:
    Log in to [Vercel](https://vercel.com/), click **Add New...** -> **Project**, and import your repository.
 3. **Deploy**:
