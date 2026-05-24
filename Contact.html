@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact | Saisrinivas Panthangi</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="container navbar">
+      <a class="brand" href="Home.html">Saisrinivas Panthangi</a>
+      <nav class="nav-links">
+        <a href="Home.html">Home</a>
+        <a href="About.html">About</a>
+        <a href="Contact.html" class="active">Contact</a>
+      </nav>
+    </div>
+    <div class="profile-badge">
+      <img src="IMG_6177.jpg" alt="Saisrinivas Panthangi profile photo" />
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="section">
+      <div class="section-title">
+        <span></span>
+        <h2>Get in touch</h2>
+      </div>
+      <p style="color: var(--text-muted); max-width: 60ch; margin-bottom: 2rem;">
+        I’m available for internships, collaborations, and project opportunities. Send a message below and I will respond promptly.
+      </p>
+      <div class="contact-panel">
+        <div class="panel-card contact-card">
+          <div>
+            <span>✉️</span>
+            <div>
+              <strong>Email</strong>
+              <p>yourname@example.com</p>
+            </div>
+          </div>
+          <div>
+            <span>📍</span>
+            <div>
+              <strong>Location</strong>
+              <p>Hyderabad, India</p>
+            </div>
+          </div>
+          <div>
+            <span>💼</span>
+            <div>
+              <strong>Availability</strong>
+              <p>Open to internships and freelance opportunities</p>
+            </div>
+          </div>
+        </div>
+
+        <form class="panel-card" action="/submit-contact" method="post">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input id="name" class="form-input" type="text" name="name" placeholder="Your name" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input id="email" class="form-input" type="email" name="email" placeholder="you@example.com" required />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" class="form-textarea" name="message" placeholder="Tell me about your project" required></textarea>
+          </div>
+          <button class="button" type="submit">Send message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="container">
+    <p>© 2026 Saisrinivas Panthangi. Thank you for connecting.</p>
+  </footer>
+</body>
+</html>

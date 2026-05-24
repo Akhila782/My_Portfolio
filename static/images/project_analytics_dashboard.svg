@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 360" preserveAspectRatio="xMidYMid meet">
+  <defs>
+    <linearGradient id="grad3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0D5C63"/>
+      <stop offset="100%" stop-color="#167a83"/>
+    </linearGradient>
+  </defs>
+  <rect width="560" height="360" rx="24" ry="24" fill="#f7f4ee"/>
+  <rect x="50" y="90" width="460" height="220" rx="24" fill="#fff" stroke="#d8d4ce" stroke-width="4"/>
+  <rect x="90" y="130" width="80" height="100" rx="16" fill="url(#grad3)" opacity="0.9"/>
+  <rect x="190" y="150" width="60" height="80" rx="16" fill="#0D5C63" opacity="0.85"/>
+  <rect x="280" y="140" width="70" height="90" rx="16" fill="#167a83" opacity="0.95"/>
+  <rect x="380" y="120" width="46" height="110" rx="16" fill="#E07A5F"/>
+  <circle cx="155" cy="240" r="18" fill="#0D5C63"/>
+  <circle cx="230" cy="220" r="14" fill="#167a83"/>
+  <circle cx="305" cy="180" r="12" fill="#E07A5F"/>
+  <text x="52" y="60" font-family="Inter, sans-serif" font-size="26" fill="#0D5C63" font-weight="700">Analytics</text>
+  <text x="52" y="92" font-family="Inter, sans-serif" font-size="18" fill="#5A5A5A">Dashboard</text>
+</svg>
