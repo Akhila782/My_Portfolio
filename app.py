@@ -86,9 +86,6 @@ def internal_server_error(e):
 def index():
     return render_template('Home.html')
 
-@app.route('/Saisrinivas_Home.html')
-def saisrinivas_home():
-    return render_template('Home1.html')
 
 @app.route('/About.html')
 def about():

@@ -1,82 +1,125 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Contact | Saisrinivas Panthangi</title>
-  <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Akhila Nakerekanti</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="static/style.css">
 </head>
 <body>
-  <header>
-    <div class="container navbar">
-      <a class="brand" href="Home.html">Saisrinivas Panthangi</a>
-      <nav class="nav-links">
-        <a href="Home.html">Home</a>
-        <a href="About.html">About</a>
-        <a href="Contact.html" class="active">Contact</a>
-      </nav>
-    </div>
-    <div class="profile-badge">
-      <img src="IMG_6177.jpg" alt="Saisrinivas Panthangi profile photo" />
-    </div>
-  </header>
 
-  <main class="container">
-    <section class="section">
-      <div class="section-title">
-        <span></span>
-        <h2>Get in touch</h2>
-      </div>
-      <p style="color: var(--text-muted); max-width: 60ch; margin-bottom: 2rem;">
-        I’m available for internships, collaborations, and project opportunities. Send a message below and I will respond promptly.
-      </p>
-      <div class="contact-panel">
-        <div class="panel-card contact-card">
-          <div>
-            <span>✉️</span>
-            <div>
-              <strong>Email</strong>
-              <p>yourname@example.com</p>
-            </div>
-          </div>
-          <div>
-            <span>📍</span>
-            <div>
-              <strong>Location</strong>
-              <p>Hyderabad, India</p>
-            </div>
-          </div>
-          <div>
-            <span>💼</span>
-            <div>
-              <strong>Availability</strong>
-              <p>Open to internships and freelance opportunities</p>
-            </div>
-          </div>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="Home.html" class="logo">AN.</a>
+            <input type="checkbox" id="menu-toggle" class="menu-checkbox">
+            <label for="menu-toggle" class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </label>
+            <ul class="nav-links">
+                <li><a href="Home.html#about">About</a></li>
+                <li><a href="Home.html#skills">Skills</a></li>
+                <li><a href="Home.html#projects">Projects</a></li>
+                <li><a href="Home.html#experience">Experience</a></li>
+                <li><a href="Home.html#education">Education & Certs</a></li>
+                <li><a href="Home.html#contact">Contact</a></li>
+            </ul>
         </div>
+    </nav>
+    
+    <main>
+        <!-- Page Header -->
+        <header class="hero" style="min-height: 40vh; padding: 40px 0;">
+            <div class="container hero-content">
+                <div class="hero-text" style="text-align: center; width: 100%;">
+                    <p class="greeting" style="justify-content: center;">Let's Connect</p>
+                    <h1 class="hero-name" style="font-size: 3rem;">Get In Touch</h1>
+                    <p style="color: var(--text-light); max-width: 600px; margin: 20px auto 0 auto;">
+                        I am actively seeking new opportunities and look forward to discussing how my clinical informatics expertise can bring value to your organization.
+                    </p>
+                </div>
+            </div>
+        </header>
 
-        <form class="panel-card" action="/submit-contact" method="post">
-          <div class="form-group">
-            <label for="name">Name</label>
-            <input id="name" class="form-input" type="text" name="name" placeholder="Your name" required />
-          </div>
-          <div class="form-group">
-            <label for="email">Email</label>
-            <input id="email" class="form-input" type="email" name="email" placeholder="you@example.com" required />
-          </div>
-          <div class="form-group">
-            <label for="message">Message</label>
-            <textarea id="message" class="form-textarea" name="message" placeholder="Tell me about your project" required></textarea>
-          </div>
-          <button class="button" type="submit">Send message</button>
-        </form>
-      </div>
-    </section>
-  </main>
+        <!-- Contact Form & Details Section -->
+        <section class="section-padding bg-alt">
+            <div class="container">
+                <div class="skills-grid">
+                    <!-- Contact Details Card -->
+                    <div class="card" style="display: flex; flex-direction: column; gap: 25px;">
+                        <h3>Contact Info</h3>
+                        
+                        <div style="display: flex; align-items: flex-start; gap: 15px;">
+                            <svg class="contact-icon" style="margin-top: 4px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                            <div>
+                                <strong>Email</strong>
+                                <p style="margin-top: 5px;"><a href="mailto:akhilan0708@gmail.com">akhilan0708@gmail.com</a></p>
+                            </div>
+                        </div>
 
-  <footer class="container">
-    <p>© 2026 Saisrinivas Panthangi. Thank you for connecting.</p>
-  </footer>
+                        <div style="display: flex; align-items: flex-start; gap: 15px;">
+                            <svg class="contact-icon" style="margin-top: 4px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                            <div>
+                                <strong>Phone</strong>
+                                <p style="margin-top: 5px;"><a href="tel:+12036068496">+1 203-606-8496</a></p>
+                            </div>
+                        </div>
+
+                        <div style="display: flex; align-items: flex-start; gap: 15px;">
+                            <svg class="contact-icon" style="margin-top: 4px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                            <div>
+                                <strong>Location</strong>
+                                <p style="margin-top: 5px; color: var(--text-light);">West Haven, CT</p>
+                            </div>
+                        </div>
+
+                        <div style="display: flex; align-items: flex-start; gap: 15px;">
+                            <svg class="contact-icon" style="margin-top: 4px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                            <div>
+                                <strong>LinkedIn</strong>
+                                <p style="margin-top: 5px;"><a href="https://www.linkedin.com/in/akhila-nakerekanti-5319b2223/" target="_blank" rel="noopener noreferrer">View LinkedIn Profile</a></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Contact Form Card -->
+                    <div class="card">
+                        <h3>Send a Message</h3>
+                        <form class="contact-form" action="/submit-contact" method="post" style="margin-top: 20px; width: 100%;">
+                            <div class="form-group">
+                                <label for="name" style="font-weight: 500; display: block; margin-bottom: 5px;">Name</label>
+                                <input id="name" type="text" name="name" placeholder="Your Name" required />
+                            </div>
+                            <div class="form-group">
+                                <label for="email" style="font-weight: 500; display: block; margin-bottom: 5px;">Email</label>
+                                <input id="email" type="email" name="email" placeholder="you@example.com" required />
+                            </div>
+                            <div class="form-group">
+                                <label for="subject" style="font-weight: 500; display: block; margin-bottom: 5px;">Subject</label>
+                                <input id="subject" type="text" name="subject" placeholder="Subject" />
+                            </div>
+                            <div class="form-group">
+                                <label for="message" style="font-weight: 500; display: block; margin-bottom: 5px;">Message</label>
+                                <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+                            </div>
+                            <button class="btn primary-btn" type="submit" style="width: 100%;">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container text-center" style="text-align: center;">
+            <p>&copy; 2026 Akhila Nakerekanti.</p>
+        </div>
+    </footer>
 </body>
 </html>
